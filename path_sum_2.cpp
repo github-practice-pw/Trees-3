@@ -9,6 +9,13 @@
         - Traverse the tree using preorder, inorder or postorder and keep a tally of the targetSum along
           with the node values in the result vector.
 */
+
+
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
  /* 
   * Definition for a binary tree node.
   */
@@ -20,11 +27,6 @@
       TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
       TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
-#include<iostream>
-#include<vector>
-
-using namespace std;
 
 class Solution {
 public:
